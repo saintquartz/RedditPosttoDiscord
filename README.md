@@ -1,5 +1,8 @@
-# RedditPosttoDiscord
-Posting a redditor's post using a discord bot
+# Reddit Post to Discord Bot
+Using a bot on Discord, this takes a Redditor's top post of the current week and turns it into an embedded link which is then posted to the text channel. The Reddit post was accessed using PRAW and the bot function was done through discord.py.
 
-This code was ran through replit which allows for storing private information using keys.
-The code pulls the redditor's top post of the week using PRAW API then posts the url in Discord chat
+
+## Built Using
+* [PRAW](https://praw.readthedocs.io/en/stable/) - Allows for access to Reddit API
+* [discord.py](https://discordpy.readthedocs.io/en/stable/) - Library for Python to use the Discord API
+* [replit](https://replit.com/) - Browser IDE to run the code on
